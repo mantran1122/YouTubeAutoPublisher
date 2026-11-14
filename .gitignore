@@ -1,0 +1,38 @@
+# Upstream dependencies (tham chiếu, clone theo hướng dẫn README)
+external/
+
+# Secrets & credentials
+client_secret*.json
+*.json_secret
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# MCP cache & outputs
+.youtube_uploader_channels_cache*
+youtube_uploader_mcp.log
+downloads/
+temp/
